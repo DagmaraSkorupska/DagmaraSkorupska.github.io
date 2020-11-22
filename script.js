@@ -1,7 +1,7 @@
-$(document).ready(function() {
 
-  const apiRoot = 'https://arcane-earth-55541.herokuapp.com/v1/';
-  const trelloApiRoot = 'http://arcane-earth-55541.herokuapp.com/v1/trello/';
+  $(document).ready(function() {
+  const apiRoot = 'https://arcane-earth-55541.herokuapp.com/v1/task/';
+  const trelloApiRoot = 'https://arcane-earth-55541.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
